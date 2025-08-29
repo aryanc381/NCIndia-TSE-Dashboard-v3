@@ -3,10 +3,10 @@ import { Input } from "@/components/ui/input"
 
 export function Email() {
   return (
-    <div className="flex w-[25vw] max-w-sm items-center gap-1">
+    <div className="flex w-full max-w-sm items-center gap-2">
       <Input type="email" placeholder="Email" />
       <Button type="submit" variant="outline">
-        Search
+        Subscribe
       </Button>
     </div>
   )
