@@ -3,7 +3,7 @@ import { ModeToggle } from '@/components/theme-toggle';
 
 function Dash() {
   return (
-    <div className='flex gap-[1vw]'>
+    <div className='flex gap-[2vw]'>
         <ModeToggle />
         <Email />
     </div>
